@@ -9,7 +9,7 @@ async function main() {
     app.listen(config.port, () => {
       console.log('Server listning on port ', config.port)
     })
-  } catch (error: unknown) {
+  } catch (error) {
     console.log('database not connected   ', error.message)
   }
 
